@@ -10,8 +10,8 @@
     "./scripts/*": "./scripts/*.js"
   },
   "bin": {
-    "check-inline-interfaces": "./scripts/check-inline-interfaces.js",
-    "check-code-duplication": "./scripts/check-code-duplication.js"
+    "check-inline-interfaces": "scripts/check-inline-interfaces.js",
+    "check-code-duplication": "scripts/check-code-duplication.js"
   },
   "keywords": [
     "eslint",
@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jmestrelozano/linter-rules-package.git"
+    "url": "git+https://github.com/Jmestrelozano/linter-rules-package.git"
   },
   "engines": {
     "node": ">=16.0.0"
