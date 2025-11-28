@@ -22,11 +22,11 @@
     "interfaces",
     "code-duplication"
   ],
-  "author": "",
+  "author": "Jmestrelozano <jmestrelozano@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Jmestrelozano/linter-rules-package.git"
   },
   "engines": {
     "node": ">=16.0.0"
