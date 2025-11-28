@@ -1,0 +1,48 @@
+{
+  "name": "linter-rules-package",
+  "version": "1.0.0",
+  "description": "ESLint rules and validation scripts for code quality: inline interfaces detection and code duplication detection",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./rules/*": "./rules/*.js",
+    "./scripts/*": "./scripts/*.js"
+  },
+  "bin": {
+    "check-inline-interfaces": "./scripts/check-inline-interfaces.js",
+    "check-code-duplication": "./scripts/check-code-duplication.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "linter",
+    "custom-rules",
+    "code-quality",
+    "interfaces",
+    "code-duplication"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "files": [
+    "index.js",
+    "rules/",
+    "scripts/",
+    "utils/",
+    "README.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

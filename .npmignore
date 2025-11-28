@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.env
+.env.local
+eslint.config.example.js
+package-lock.example.json
+
